@@ -34,7 +34,7 @@ on:
 
 
 
-name: ziye-sync
+name: WYXD1234
 on:
   schedule:
     - cron: '1 */3 * * *'
