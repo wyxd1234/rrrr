@@ -20,7 +20,7 @@
  */
 
 // 根据自己信息填好
-const ksjsb_guanggao = "";     // 广告 json 地址，标准写法：http://xxx.yyy/zzz.json，如果不会自己抓广告的话，可以从其他脚本复制【必须设置】
+const ksjsb_guanggao = "http://1.116.47.223:8888/down/BGUor1ij2Xqu";     // 广告 json 地址，标准写法：http://xxx.yyy/zzz.json，如果不会自己抓广告的话，可以从其他脚本复制【必须设置】
 const ksjsb_cookie = "kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSsAFzeES0ySIpuW7g4XnWDyTZGIu2BU6udYPqErC4fxOJ55nVAQK6dHBhZ1I5tKJagSRTn2PS982XrbgKD1hMrIhIAKvbCffPwKLnxyV9GfF3zU0oVH89D4reQyGg2bo8S7_eT1sVaKY7bb-PKSldZyGCdrfZO2jQowfkp90ljfeLwC6Um7IZUoZj5Yqv6SmIc7Uc_pN_A24hxyW1ZFomWKdoSWZYILjyyJupZ9LsgvKgAhoSIsIoLes9RPioExUSX2KZ9NeXIiD5bA6IGiXidXORnbHLJPb3d4OEkJFMESvJgCmei5LMjSgFMAE;@ kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSsAGR2TnWWpvKOAZ99ElwBV_3l5HFkQsLxg661Bs2mzG-O6Gw37Jdv-sdX2oII0FZRSIQLJKk2bO6tnt1B4J1a2VuGqmuNN7X1h29W95ydAQKH_7LONgFwXrDsTBwmSqotCWuTdd6ur97kfHNOvaNhaSGvdGpLl6TYOvxtKrW8RFZyc8tso_xqw5f5djuRr4UFsSGaBuKFD2ko-BooqilfZyZ__eHBaI-YB_1pu2SIj0KPRoSgZ_Nba6SSgega5pcXl8O1pthIiDCvAlfjCVa4EgF4Ad_O7n_NINNtD9FqSG1sfsYSrNB5CgFMAE;";       // CK 填在这里，标准写法：kuaishou.api_st=xxx;@kuaishou.api_st=yyy; <--- 看到示例中每个CK最后的英文分号(;)了么，不要省略【必须设置】
 const ksjsb_money = "";        // 提现金额，整数字符串，留空表示按照快手返回的金额列表提现。比如'3'，表示每次提现 3 块。【建议留空】
 const ksjsb_hour = 8;          // 提现时间，整数，精确到小时。比如 8 就是早上 8 点提现，如果在 8：00-8：59 这一个小时内，脚本没跑，那就是不自动提现【建议改掉】
